@@ -34,6 +34,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 35px;
 }
 
 .header h2 {
@@ -46,4 +47,46 @@ a {
     display: flex;
     margin-right: 200px;
     gap: 25px;
+}
+
+/* hero section */
+.hero {
+    margin-top: -22px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+.intro {
+    padding-left: 150px;
+    padding-right: 50px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: -20px;
+}
+
+.intro button {
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hero-img {
+    margin-right: 150px;
 }
