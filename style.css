@@ -29,7 +29,7 @@ a {
     background-color: #E5E7EB;
 }
 
-/* header section start */
+/* header start */
 .header {
     display: flex;
     justify-content: space-between;
@@ -50,7 +50,7 @@ a {
 }
 /* header end */
 
-/* hero section start */
+/* hero start */
 .hero {
     margin-top: -22px;
     display: flex;
@@ -91,9 +91,9 @@ a {
 .hero-img {
     margin-right: 150px;
 }
-/* end of hero section */
+/* hero end */
 
-/* random information section start */
+/* random information start */
 .info-section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -128,9 +128,9 @@ a {
     height: 175px;
     border-radius: 8px;
 }
-/* end of random information section */
+/* random information end */
 
-/* quote section start */
+/* quote start */
 .quote {
     display: flex;
     flex-direction: column;
@@ -152,9 +152,9 @@ a {
     margin-right: 50px;
     align-self: flex-end;
 }
-/* end of quote section */
+/* quote end */
 
-/* CTA sectino start */
+/* CTA start */
 .cta {
     padding: 125px;
 }
@@ -164,5 +164,31 @@ a {
     justify-content: space-around;
     align-items: center;
     border-radius: 8px;
-    padding: 10px;
+    padding: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
+
+.cta-info {
+    margin-left: 50px;
+}
+.cta-btn {
+    margin-right: 50px;
+    color: #F9FAF8;
+    font-weight: 600;
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cta h3, .cta p {
+    color: #F9FAF8;
+}
+
+.cta p {
+    margin-top: -15px;
+}
+/* CTA end */
